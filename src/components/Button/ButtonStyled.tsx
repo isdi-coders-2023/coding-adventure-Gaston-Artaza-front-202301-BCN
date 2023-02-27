@@ -9,6 +9,14 @@ const ButtonStyled = styled.button`
   color: #1e1e1e;
   font-family: "Saira Stencil One";
   font-weight: 400;
+
+  :disabled {
+    opacity: 0.57;
+  }
+
+  @media (min-width: 420px) {
+    height: 57px;
+  }
 `;
 
 export default ButtonStyled;
