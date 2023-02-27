@@ -1,0 +1,5 @@
+@import url("../node_modules/@fontsource/saira-stencil-one/index.css");
+button {
+  cursor: pointer;
+  border: none;
+}
