@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = () => {
+const FormRegister = () => {
   return (
     <form>
       <label htmlFor="email"> Email</label>
@@ -29,4 +29,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default FormRegister;
