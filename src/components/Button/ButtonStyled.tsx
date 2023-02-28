@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 const ButtonStyled = styled.button`
-  background-color: #cccf18;
+  background-color: var(--primary-color);
+  font-family: var(--main-font);
   width: 323px;
   height: 40px;
   border-radius: 10px;
   font-size: 20px;
-  color: #1e1e1e;
-  font-family: "Saira Stencil One";
+  color: var(--primary-font-color);
+
   font-weight: 400;
 
   :disabled {
