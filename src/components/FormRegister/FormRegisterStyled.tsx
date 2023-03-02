@@ -13,21 +13,21 @@ const FormRegisterStyled = styled.form`
     display: flex;
     flex-direction: column;
     font-weight: 700;
-    color: #fff;
+    color: var(--main-form-color);
   }
 
   input {
     border-radius: 8px;
     height: 40px;
     width: 325px;
-    border: 1px solid #fff;
-    background-color: #e8e8e8;
+    border: 1px solid var(--main-form-color);
+    background-color: var(--bg-input-color);
     margin-top: 9px;
     padding: 11px;
   }
 
   input::placeholder {
-    color: #1e1e1e;
+    color: var(--primary-font-color);
     font-size: 1rem;
   }
 

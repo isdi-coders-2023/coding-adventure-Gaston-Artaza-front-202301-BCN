@@ -6,7 +6,6 @@ const FormRegister = (): JSX.Element => {
   return (
     <FormRegisterStyled>
       <label htmlFor="email">
-        {" "}
         Email
         <input
           type="text"

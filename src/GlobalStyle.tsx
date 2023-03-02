@@ -9,6 +9,8 @@ export const GlobalStyle = createGlobalStyle`
   --primary-color: #cccf18;
   --primary-font-color : #1e1e1e;
   --font-form:"Roboto";
+  --bg-input-color:#e8e8e8;
+  --main-form-color:#fff
 }
 
 *,
