@@ -33,7 +33,7 @@ input,button{
 body {
   margin: 0;
   padding: 18px;
-  background-color: #1E1E1E;
+  background-color: var(--primary-font-color);
   min-height: 100vh;
 }
 
