@@ -1,8 +1,8 @@
 import React from "react";
-import Form from "./Form/Form";
+import FormRegister from "./components/FormRegister/FormRegister";
 
 const App = (): JSX.Element => {
-  return <Form />;
+  return <FormRegister />;
 };
 
 export default App;
